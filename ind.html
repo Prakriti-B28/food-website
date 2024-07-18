@@ -3,18 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foodie Waitlist</title>
+    <title>Foodie</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <div class="waitlist-form">
-            <h2>Join the Waitlist</h2>
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="C:\Users\PRAKRITI\Downloads\Frontend-task-weboin (1)\Frontend-task\assets\FoodieLogo.png" alt="Foodie Logo" width="30" height="30">
+        </a>
+        <button class="btn btn-primary" type="button">Join the Waitlist</button>
+    </nav>
+
+    <div class="container text-center my-5">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-6">
+                <img src="C:\Users\PRAKRITI\Downloads\Frontend-task-weboin (1)\Frontend-task\assets\iphone13-Layout.png" class="img-fluid" alt="iPhone 13 Layout">
+            </div>
+            <div class="col-md-6">
+                    <img src="C:\Users\PRAKRITI\Downloads\Frontend-task-weboin (1)\Frontend-task\assets\FoodieLogo.png" class="img-fluid" alt="Foodie Logo">
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
-        <div class="thank-you-message" id="thankYouMessage">
-            <h2>Thank you!</h2>
-        </div>
+        <h1 class="mt-4">Welcome to Foodie</h1>
+        <p class="lead">At foodie, we redefine convenience with our seamless food delivery service. Whether you're craving the flavors of home or exploring new culinary delights, foodie brings it all to your doorstep. From hearty breakfasts to gourmet dinners and everything in between, our curated menu caters to every palate and preference.</p>
+        <button class="btn btn-primary mb-5" type="button">Join the Waitlist</button>
     </div>
-    <script src="script.js"></script>
+
+    <div class="container text-center my-5">
+        <h2>Join the Waitlist</h2>
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <input type="text" class="form-control" id="name" placeholder="Name">
+                </div>
+                <div class="form-group col-md-6">
+                    <input type="text" class="form-control" id="phone" placeholder="Phone Number">
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="city" placeholder="City">
+            </div>
+            <button type="submit" class="btn btn-primary">Join the Waitlist</button>
+        </form>
+    </div>
+
+    <footer class="text-center py-4">
+        <p>©Foodie, 2024</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="ja.js"></script>
 </body>
 </html>
