@@ -1,74 +1,40 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
-}
-
-.navbar {
-    background-color: #ffffff;
-}
-
-.navbar .btn {
-    background: linear-gradient(90deg, #ff7e5f, #feb47b);
-    border: none;
-    color: #fff;
+    background-color: #ffcccb;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .container {
-    background-color: #fe6978;
+    text-align: center;
+}
+
+.waitlist-form {
+    padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 2rem;
-}
-.container my-5{
-    color: pink;
-
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.welcome-section {
-    position: relative;
-    background: url('downloads/Map-UI.png.webp') no-repeat center center;
-    background-size: cover;
-    padding: 2rem;
-    border-radius: 10px;
-    color: pink;
+.waitlist-form h2 {
+    color: #ff4500;
 }
 
-.welcome-section::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: white(255, 255, 255, 0.8); /* Adjust transparency here */
-    border-radius: 10px;
+.waitlist-form button {
+    background-color: #ff4500;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-.welcome-section h1, .welcome-section p, .welcome-section button {
-    position: relative;
-    z-index: 1;
+.waitlist-form button:hover {
+    background-color: #e63900;
 }
 
-h1, h2 {
-    color: #e8254f;
-}
-
-p.lead {
-    color: white;
-}
-
-form .form-control {
-    border-radius: 25px;
-}
-
-form .btn {
-    background: linear-gradient(90deg, pink, #feb47b);
-    border: none;
-    border-radius: 25px;
-    color: #fff;
-}
-
-footer {
-    background-color: pink;
-    color: #ffffff;
+.thank-you-message h2 {
+    text-align: center;
+    color: #ff4500;
 }
