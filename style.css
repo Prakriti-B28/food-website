@@ -1,0 +1,61 @@
+body {
+    background-color: #ffe4e1; /* Light pink background for the entire body */
+}
+
+.navbar {
+    background-color: #ff69b4; /* Light pink navbar */
+}
+
+.navbar-brand img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container-dark-pink {
+    background-color: #f01249; /* Dark pink background for the first container */
+    color: white; /* White text for the first container */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.container-light-pink {
+    background-color: #ffe4e1; /* Light pink background for the second container */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h1{
+    color: white; /* White color for headings in the first container */
+}
+h2{
+    color: orangered;
+}
+
+.lead {
+    color: white; /* White color for lead text in the first container */
+}
+
+footer {
+    background-color: #ff69b4; /* Light pink footer */
+    color: white;
+}
+
+.btn-primary {
+    background-color: palevioletred; /* Light pink button */
+    border-color: palevioletred;
+}
+
+.btn-primary:hover {
+    background-color: pink; /* Darker pink on hover */
+    border-color: pink;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
